@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "serve": "ts-node ./src/index.ts",
     "start": "nodemon --watch src --exec ts-node ./src/index.ts"
   },
   "dependencies": {
